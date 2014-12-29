@@ -66,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #282528;
+    /*  background-color: #282528;*/
 }
 
 .navbar-custom img {
@@ -104,19 +104,19 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
-.navbar-custom .nav li a {
+/*.navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-}
+}*/
 
-.navbar-custom .nav li a:hover,
+/*.navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
-
+*/
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -138,20 +138,20 @@ a:focus {
     }
 }
 
-.intro {
+/*.intro {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: #282528;
-    background: url(../img/home-bg.png) no-repeat bottom center scroll;
+   /* background: url(../img/home-bg.png) no-repeat bottom center scroll;
     background-color: #282528;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+} */
 
 .intro .intro-body {
     display: table-cell;

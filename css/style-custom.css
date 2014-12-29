@@ -1,0 +1,57 @@
+
+.navbar-header{ margin-left: 25px !important;}
+
+.navbar-custom img {
+  width: 40%;
+}
+.navbar-custom .nav li a{ padding-bottom: 10px; }
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    border-bottom: 5px solid #f00;
+}
+
+ul.nav.navbar-nav { margin-top: 15px; }
+
+.collapse.navbar-collapse.navbar-right.navbar-main-collapse{ margin-right: 60px; }
+
+.title{ 
+  text-transform: none; 
+  font-weight: 100;
+}
+
+.title, p { margin-bottom: 15px; }
+
+.title, p, ul{ color: #000; }
+
+#home ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#home ul li{ margin-bottom: 5px; }
+
+#home ul li span{ padding-left: 10px; }
+
+#home{
+  background: url(../img/home-bg.png) no-repeat center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.stores{ margin-top: 25px; padding-left: 0; }
+
+.stores > a{ margin-right: 20px; }
+.intro {
+  height: auto;
+  padding: 100px 0;
+  padding-left: 45px;
+  padding-bottom: 0;
+}
+
+#hand-img{
+  float: right;
+  height: 36.975em;
+  width: 28em;
+}
