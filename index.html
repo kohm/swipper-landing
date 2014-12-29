@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<OCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Swipper</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style-custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,122 +32,142 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <!--<a class="navbar-brand page-scroll clearfix" href="#page-top">
-                    <img src="img/logo.png" alt=""/>
-                </a>-->
-                <img src="img/logo.png" alt=""/>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Features</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h3 class="text-left">Introducing <strong>Sipper</strong></h3>
-                        <p class="text-left">Find merchants who accept AMEX credit card on the go!</p>
-                        <p class="text-left"><i class="fa fa-chevron-right"></i><span>Find AMEX merchants near your current location.</span></p>
-                        <p class="text-left"><i class="fa fa-chevron-right"></i><span>Distance between your chosen location and the AMEX enabled merchants.</span></p>
-                        <p class="text-left"><i class="fa fa-chevron-right"></i><span>Filters your search based on the type merchants you need.</span></p>
-                        <br/>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <img class="logo-swipper" src="img/logo-img.png">
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    <!-- Navigation -->
+    <section id="home">        
+        <!-- Intro Header -->
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container body-home" style="margin-top:20px;">
+                    <div class="row">                                  
+
+                      <div class="style-intro col-lg-6">
+                           <h1 class="title"> Introducing <strong>Swipper</strong></h1> 
+                           <p> <strong>Find merchants who accept AMEX credit card on the go!</strong> </p>
+                           <ul class="details">
+                             <li> > <span>Finds corporate credit card merchants near current location.</span></li>
+                             <li> > <span>Distance between your chosen location and the AMEX enabled merchants.</span></li>
+                             <li> > <span>Filter your search based on the type of merchants you need.</span></li>
+                           </ul>
+
+                        <div class="col-lg-12 stores">
+                            <a href="#">
+                                <img src="img/gplay.png">
+                            </a>
+                            <a href="#">
+                                <img src="img/astore.png">
+                            </a>                 
+                        </div>   
+
+                      </div>
+                        <div class="style-hand col-lg-6">
+                          <img id="hand-img" src="img/hand.png">
+                        </div>
                 </div>
             </div>
-        </div>
-    </header>
-
+        </header>
+    </section>
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+    <section id="features" class="container content-section text-center">
+            <div class="row">
+            <h1 class="subtitle"><strong>FEATURES</strong></h1>
+            <div class="col-lg-4 features-left" >
+                <img src="img/find.png">
+                <p><strong>FIND</strong></p>
+                <p>Finds AMEX merchants near any address.</p>
+                <img src="img/location.png">
+                <p><strong>LOCATION</strong></p>
+                <p>Finds AMEX merchants near your current location.</p>
+                <img src="img/time.png">
+                <p><strong>SCHEDULES</strong></p>
+                <p>Check the merchants scheduele and other interesting information.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class= "image" src="img/whitephone.png">
+            </div>
+            <div class="col-lg-4 features-left" >
+                <img src="img/distance.png">
+                <p><strong>DISTANCE</strong></p>
+                <p>Provides you witgh the distance between your choosen location and the AMEX enabled merchants.</p>
+                <img src="img/plate.png">
+                <p><strong>FILTER</strong></p>
+                <p>Filters your AMEX search based on the type of merchants you need: covenience stores, fast-food restaurants, retail, transportation, auto-motive and many more.</p>
+                <img src="img/camera.png">
+                <p><strong>PHOTOS</strong></p>
+                <p>Pictures of merchants are shown at the information section of every spot.</p>
             </div>
         </div>
     </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
-            </div>
+           
+    <section class="content-section text-center features1">
+        <h1 class="subtitle"><strong>Finds AMEX merchants near any address</strong></h1>
+        <div>           
+            <img class="image" src="img/features.png">
         </div>
+    </section>
+    
+    <section class="content-section text-center features2">
+          <h1 class="subtitle"><strong>Merchants Information</strong></h1>
+        <div>
+            <img class="image" src="img/features2.png">
+        </div>
+    
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+        <h1 class="subtitle"><strong>CONTACT</strong></h1>       
+            <div class="col-lg-8">
+
             </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <div class="col-lg-4 ">
+                <img class="image" src="img/footerphone.jpg">
+            </div>        
+    </section>  
+        
+    <footer class="border ">
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/facebook.png">
+                <img src="img/twitter.png">
+                <img src="img/gplus.png">
+            </div>
+            <div class="col-lg-4 blah">
+                <img src="img/made.png">
+            </div>    
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
