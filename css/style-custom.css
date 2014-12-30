@@ -6,7 +6,7 @@
 
 body {
    
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat",sans-serif;
     color: #333;    
     min-width:500px; 
     width: auto !important; 
@@ -24,7 +24,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -32,7 +32,7 @@ h6 {
 h2{
     text-align: left;
     margin: 5px 15px; 
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 0,5px;
 }
@@ -40,7 +40,7 @@ h2{
 h4{
     text-align: left;
     margin: 5px 0;    
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-weight: 700;
     letter-spacing: 0,5px;
 }
@@ -80,7 +80,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat",sans-serif;
     background-color: #ffc200;
     colr: #333;
 }
@@ -309,7 +309,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -484,7 +484,7 @@ body {
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Montserrat",sans-serif;
     font-weight:500;
 	font-size: 18px;
 	border-radius: 0;
@@ -568,7 +568,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Montserrat",sans-serif;
 	float:left;
 	width: 100%;
 	border: #fbfbfb solid 4px;

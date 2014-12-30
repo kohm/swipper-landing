@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<OCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Swipper</title>
-
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -171,11 +171,11 @@
     </section>  
         
     <footer class="border">
-        <div class="row">            
-            <div class="col-lg-4 col-lg-offset-8 made">
+                   
+            <div class="col-lg-1 col-lg-offset-8 made">
                 <img src="img/made.png">
             </div>    
-        </div>
+        
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
