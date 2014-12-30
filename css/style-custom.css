@@ -607,6 +607,7 @@ input:focus, textarea:focus {
 
 .made{
     margin-left: 69.667%;
+    margin-bottom: 20px;
 }
 
 .submit:hover .ease{
