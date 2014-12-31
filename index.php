@@ -131,14 +131,14 @@
         </div>
     </section>
            
-    <section class="content-section text-center features1">
+    <section class="content text-center features1">
         <h1 class="subtitle"><strong>Finds AMEX merchants near any address</strong></h1>
         <div>           
             <img class="image img-responsive center-block" src="img/features.png">
         </div>
     </section>
     
-    <section class="content-section text-center features2">
+    <section class="content text-center features2">
           <h1 class="title"><strong>Merchants Information</strong></h1>
         <div>
             <img class="image img-responsive center-block" src="img/features2.png">
@@ -146,9 +146,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <h1 class="title"><strong>CONTACT</strong></h1>       
-            <div class="col-lg-4  col-lg-offset-1">
+    <section id="contact" class="container text-center">
+        <h1 class="title1 contact"><strong>CONTACT</strong></h1>       
+            <div class="col-lg-4  col-lg-offset-1 contacto">
                 <h2><strong>Say hello!</strong></h2>
                     <form class="form" id="form1">
                       <p class="name">
@@ -165,8 +165,8 @@
                         </div>
                     </form>                  
             </div>
-            <div class="col-lg-4 col-lg-offset-3 ">
-                <img class="image img-responsive hidden-xs center-block" src="img/footerphone.jpg">
+            <div class="col-lg-4 col-lg-offset-3 contacto">
+                <img class="imagen img-responsive center-block" src="img/footerphone.jpg">
             </div>        
     </section>  
         
