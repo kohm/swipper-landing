@@ -374,11 +374,7 @@ a:focus {
     
     .contact{
         margin-top: 70px;
-    }
-    
-    .contacto{
-        margin-top: 15px;
-    }
+    }    
     
 }
 
@@ -554,7 +550,7 @@ body {
     font-weight:500;
 	font-size: 12px;
 	border-radius: 0;
-	line-height: 0;
+	line-height: 1px;
 	background-color: #fbfbfb;
 	padding: 5px 13px 13px 54px;
 	margin-bottom: 10px;

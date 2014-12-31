@@ -148,7 +148,7 @@
     <!-- Contact Section -->
     <section id="contact" class="container text-center">
         <h1 class="title1 contact"><strong>CONTACT</strong></h1>       
-            <div class="col-lg-4  col-lg-offset-1 contacto">
+            <div class="col-lg-4  col-lg-offset-1">
                 <h2><strong>Say hello!</strong></h2>
                     <form class="form" id="form1">
                       <p class="name">
