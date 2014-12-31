@@ -79,9 +79,9 @@
                              <li> > <span>Filter your search based on the type of merchants you need.</span></li>
                            </ul>
 
-                        <div class="col-lg-12 padd">
+                        <div class="col-lg-12">
                             <a href="https://play.google.com/store/apps/details?id=com.globant.labs.swipper2">
-                                <img src="img/gplay.png">
+                                <img class="padd" src="img/gplay.png">
                             </a>
                             <a href="#">
                                 <img src="img/comming-soon.png">
@@ -171,11 +171,11 @@
     </section>  
         
     <footer class="border">
-                   
-            <div class="col-lg-1 col-lg-offset-8 made">
+         <div class="container">
+            <div class="col-lg-3 pull-right">
                 <img src="img/made.png">
             </div>    
-        
+        </div>
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
