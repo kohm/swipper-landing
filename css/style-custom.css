@@ -549,10 +549,17 @@ body {
 	font-family: "Montserrat",sans-serif;
     font-weight:500;
 	font-size: 12px;
+<<<<<<< HEAD
 	border-radius: 5px;
 	line-height: 10px;
 	background-color: #fbfbfb;
 	padding: 13px 13px 13px 54px;
+=======
+	border-radius: 0;
+	line-height: 1px;
+	background-color: #fbfbfb;
+	padding: 5px 13px 13px 54px;
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	margin-bottom: 10px;
 	width:100%;
 	-webkit-box-sizing: border-box;
@@ -582,14 +589,22 @@ body {
 
 @media(min-width 767px){
     #name{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+=======
+	background-image: url(../img/name.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
     }
 
     #name:focus{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+=======
+	background-image: url(../img/name.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 30px 30px;
 	background-position: 8px 5px;
     background-position: 11px 8px;
@@ -597,21 +612,33 @@ body {
     }
 
     #email{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+=======
+	background-image: url(../img/email.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
     }
 
     #email:focus{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+=======
+	background-image: url(../img/email.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 30px 30px;
     background-position: 11px 8px;
 	background-repeat: no-repeat;
     }
 
     #comment{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+=======
+	background-image: url(../img/comment.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -622,7 +649,11 @@ body {
 	font-family: "Montserrat",sans-serif;
     font-weight:500;
 	font-size: 18px;
+<<<<<<< HEAD
 	border-radius: 5px;
+=======
+	border-radius: 0;
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	line-height: 22px;
 	background-color: #fbfbfb;
 	padding: 13px 13px 13px 54px;
@@ -638,14 +669,22 @@ body {
 
 /* Icons ---------------------------------- */
 #name{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+=======
+	background-image: url(../img/name.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 25px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+=======
+	background-image: url(../img/name.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 25px;
 	background-position: 8px 5px;
     background-position: 11px 8px;
@@ -653,21 +692,33 @@ body {
 }
 
 #email{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+=======
+	background-image: url(../img/email.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 25px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+=======
+	background-image: url(../img/email.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 25px;
     background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
+<<<<<<< HEAD
 	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+=======
+	background-image: url(../img/comment.svg);
+>>>>>>> f7eec291491d16402bb77c2a97a8ae6b5fec434c
 	background-size: 25px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
