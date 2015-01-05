@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Swipper</title>
-
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -79,17 +79,20 @@
                              <li> > <span>Filter your search based on the type of merchants you need.</span></li>
                            </ul>
 
-                        <div class="col-lg-12 stores">
-                            <a href="#">
-                                <img src="img/gplay.png">
+                        <div class="col-lg-12">
+                            <a href="https://play.google.com/store/apps/details?id=com.globant.labs.swipper2">
+                                <img class="padd" src="img/gplay.png">
                             </a>
                             <a href="#">
-                                <img src="img/astore.png">
+                                <img src="img/comming-soon.png">
                             </a>                 
-                        </div>   
+                        </div> 
+                        <div class="col-lg-12">
+                            <img src="img/globant.png">  
+                        </div>
 
                       </div>
-                        <div class="style-hand col-lg-6">
+                        <div class="style-hand col-lg-6 img-responsive center-block">
                           <img id="hand-img" src="img/hand.png">
                         </div>
                 </div>
@@ -99,71 +102,77 @@
     <!-- About Section -->
     <section id="features" class="container content-section text-center">
             <div class="row">
-            <h1 class="subtitle"><strong>FEATURES</strong></h1>
+            <h1 class="title"><strong>FEATURES</strong></h1>
             <div class="col-lg-4 features-left" >
                 <img src="img/find.png">
-                <p><strong>FIND</strong></p>
-                <p>Finds AMEX merchants near any address.</p>
+                <h4><strong>FIND</strong></h4>
+                <p class="letter">Finds AMEX merchants near any address.</p>
                 <img src="img/location.png">
-                <p><strong>LOCATION</strong></p>
-                <p>Finds AMEX merchants near your current location.</p>
+                <h4><strong>LOCATION</strong></h4>
+                <p class="letter">Finds AMEX merchants near your current location.</p>
                 <img src="img/time.png">
-                <p><strong>SCHEDULES</strong></p>
-                <p>Check the merchants scheduele and other interesting information.</p>
+                <h4><strong>SCHEDULES</strong></h4>
+                <p class="letter">Check the merchants scheduele and other interesting information.</p>
             </div>
             <div class="col-lg-4">
-                <img class= "image" src="img/whitephone.png">
+                <img class= "image img-responsive center-block" src="img/whitephone.png">
             </div>
             <div class="col-lg-4 features-left" >
                 <img src="img/distance.png">
-                <p><strong>DISTANCE</strong></p>
-                <p>Provides you witgh the distance between your choosen location and the AMEX enabled merchants.</p>
+                <h4><strong>DISTANCE</strong></h4>
+                <p class="letter">Provides you witgh the distance between your choosen location and the AMEX enabled merchants.</p>
                 <img src="img/plate.png">
-                <p><strong>FILTER</strong></p>
-                <p>Filters your AMEX search based on the type of merchants you need: covenience stores, fast-food restaurants, retail, transportation, auto-motive and many more.</p>
+                <h4><strong>FILTER</strong></h4>
+                <p class="letter">Filters your AMEX search based on the type of merchants you need: covenience stores, fast-food restaurants, retail, transportation, auto-motive and many more.</p>
                 <img src="img/camera.png">
-                <p><strong>PHOTOS</strong></p>
-                <p>Pictures of merchants are shown at the information section of every spot.</p>
+                <h4><strong>PHOTOS</strong></h4>
+                <p class="letter">Pictures of merchants are shown at the information section of every spot.</p>
             </div>
         </div>
     </section>
            
-    <section class="content-section text-center features1">
+    <section class="content text-center features1">
         <h1 class="subtitle"><strong>Finds AMEX merchants near any address</strong></h1>
         <div>           
-            <img class="image" src="img/features.png">
+            <img class="image img-responsive center-block" src="img/features.png">
         </div>
     </section>
     
-    <section class="content-section text-center features2">
-          <h1 class="subtitle"><strong>Merchants Information</strong></h1>
+    <section class="content text-center features2">
+          <h1 class="title"><strong>Merchants Information</strong></h1>
         <div>
-            <img class="image" src="img/features2.png">
+            <img class="image img-responsive center-block" src="img/features2.png">
         </div>
-    
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <h1 class="subtitle"><strong>CONTACT</strong></h1>       
-            <div class="col-lg-8">
-
+    <section id="contact" class="container text-center">
+        <h1 class="title1 contact"><strong>CONTACT</strong></h1>       
+            <div class="col-lg-4  col-lg-offset-1">
+                <h2><strong>Say hello!</strong></h2>
+                    <form class="form" id="form1">
+                      <p class="name">
+                        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name"/></p>
+                      <p class="email">
+                        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" /></p>
+                      <p class="text">
+                        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+                      </p>
+                        <div class="col-lg-12 mov">
+                            <a href="#">
+                                <img src="img/mail.png">
+                            </a>
+                        </div>
+                    </form>                  
             </div>
-            <div class="col-lg-4 ">
-                <img class="image" src="img/footerphone.jpg">
+            <div class="col-lg-4 col-lg-offset-3 contacto">
+                <img class="imagen img-responsive center-block" src="img/footerphone.jpg">
             </div>        
     </section>  
         
-    <footer class="border ">
-        <div class="row">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-lg-6">
-                <img src="img/facebook.png">
-                <img src="img/twitter.png">
-                <img src="img/gplus.png">
-            </div>
-            <div class="col-lg-4 blah">
+    <footer class="border">
+         <div class="container">
+            <div class="col-lg-3 pull-right">
                 <img src="img/made.png">
             </div>    
         </div>
