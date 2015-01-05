@@ -1,4 +1,4 @@
-/*!
+*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -66,18 +66,11 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #282528;
-}
-
-.navbar-custom img {
-    width: 20%;
+    background-color: #ffc200;
 }
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-}
-.navbar-custom .navbar-brand img {
-    width: 40%;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -96,11 +89,11 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #282528;
+    color: #fff;
 }
 
 .navbar-custom .nav li.active {
-    outline: none;
+    outline: nonte;
     background-color: rgba(255,255,255,.3);
 }
 
@@ -130,7 +123,12 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #ffc200;
+    }
+    
+    .logo-swipper{
+        width: 70%;
+        height: 70%;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -144,9 +142,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #282528;
-    background: url(../img/home-bg.png) no-repeat bottom center scroll;
-    background-color: #282528;
+    color: #fff;
+    background: url(../img/swipper-bg.png) no-repeat bottom center scroll;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -331,9 +329,14 @@ ul.banner-social-buttons {
         margin-bottom: 20px;
         padding: 0;
     }
-
+    
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+    
+    .logo-swipper{
+        width: 50%;
+        height: 50%;
     }
 }
 
@@ -367,4 +370,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+#hand-img{
+  float: right;
+  height: 36.975em;
+  width: 28em;
+}
+
+.style-intro{
+    padding-left: 15px; 
+    margin-top: 170px;
+}
+
+.style-hand{
+    margin-top: 103px;
 }
